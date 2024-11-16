@@ -1,0 +1,14 @@
+D:\Code\trainingnet\bin\Debug\net8.0\trainingnet.exe
+D:\Code\trainingnet\bin\Debug\net8.0\trainingnet.deps.json
+D:\Code\trainingnet\bin\Debug\net8.0\trainingnet.runtimeconfig.json
+D:\Code\trainingnet\bin\Debug\net8.0\trainingnet.dll
+D:\Code\trainingnet\bin\Debug\net8.0\trainingnet.pdb
+D:\Code\trainingnet\obj\Debug\net8.0\trainingnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\trainingnet\obj\Debug\net8.0\trainingnet.AssemblyInfoInputs.cache
+D:\Code\trainingnet\obj\Debug\net8.0\trainingnet.AssemblyInfo.cs
+D:\Code\trainingnet\obj\Debug\net8.0\trainingnet.csproj.CoreCompileInputs.cache
+D:\Code\trainingnet\obj\Debug\net8.0\trainingnet.dll
+D:\Code\trainingnet\obj\Debug\net8.0\refint\trainingnet.dll
+D:\Code\trainingnet\obj\Debug\net8.0\trainingnet.pdb
+D:\Code\trainingnet\obj\Debug\net8.0\trainingnet.genruntimeconfig.cache
+D:\Code\trainingnet\obj\Debug\net8.0\ref\trainingnet.dll
