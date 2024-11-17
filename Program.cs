@@ -1,16 +1,14 @@
 ﻿using System.Reflection;
 using trainingnet;
 
-Person me = new("Hassane");
+Person me = new("Mi");
+var you = Activator.CreateInstance<PersonDto>();
+you.Name = "Mi";
+you.SignUpDate = DateOnly.FromDateTime(DateTime.Now);
 
-Type type = me.GetType();
+var you2 = you.FromDto<Person, PersonDto>();
+Console.WriteLine(you2);
 
-Console.WriteLine(type.FullName);
+var dto = me.ToDto<Person, PersonDto>(); // Tu peux invoquer les extensions methods ainsi
 
-PropertyInfo[] properties = type.GetProperties();
-
-Console.WriteLine("Propriétés d'une personne :");
-foreach (var prop in properties)
-{
-    Console.WriteLine($"- {prop.Name} : ({prop.PropertyType})");
-}
+Console.WriteLine("Fin");

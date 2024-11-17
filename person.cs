@@ -2,17 +2,21 @@ using System.ComponentModel.DataAnnotations;
 
 namespace trainingnet;
 
-public class Person(string _name)
+public class Person(string name)
 {
-    Guid Id { get; set; } = new Guid();
+    private Guid Id { get; set; } = Guid.NewGuid();
 
-    [Required(ErrorMessage = "Person name is required")] 
-    string Name { get; set; } = _name;
+    [Required(ErrorMessage = "Il a probablement un nom quand même :(")] 
+    public string Name { get; set; } = name;
 
-    readonly DateOnly SignUpDate = DateOnly.FromDateTime(DateTime.Now);
+    public DateOnly SignUpDate { get; }= DateOnly.FromDateTime(DateTime.Now);
+
+    public override string ToString() => $"Name : {Name} , Guid : {Id} , SignUpDate : {SignUpDate} ";
 }
 
-public record PersonDto(
-    string Name,
-    DateOnly SignUpDate
-);
+public record PersonDto
+{
+    public required string Name { get; set; }
+    public DateOnly SignUpDate { get; set; }
+}
+    

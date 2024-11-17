@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Code\\trainingnet\\trainingnet.csproj": {}
+    "C:\\projets_personnels\\trainingnet\\trainingnet.csproj": {}
   },
   "projects": {
-    "d:\\Code\\trainingnet\\trainingnet.csproj": {
+    "C:\\projets_personnels\\trainingnet\\trainingnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Code\\trainingnet\\trainingnet.csproj",
+        "projectUniqueName": "C:\\projets_personnels\\trainingnet\\trainingnet.csproj",
         "projectName": "trainingnet",
-        "projectPath": "d:\\Code\\trainingnet\\trainingnet.csproj",
-        "packagesPath": "C:\\Users\\hassa\\.nuget\\packages\\",
-        "outputPath": "d:\\Code\\trainingnet\\obj\\",
+        "projectPath": "C:\\projets_personnels\\trainingnet\\trainingnet.csproj",
+        "packagesPath": "C:\\Users\\etudiant\\.nuget\\packages\\",
+        "outputPath": "C:\\projets_personnels\\trainingnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hassa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\etudiant\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
