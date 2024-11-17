@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projets_personnels\\trainingnet\\trainingnet.csproj": {}
+    "D:\\Code\\trainingnet\\trainingnet.csproj": {}
   },
   "projects": {
-    "C:\\projets_personnels\\trainingnet\\trainingnet.csproj": {
+    "D:\\Code\\trainingnet\\trainingnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projets_personnels\\trainingnet\\trainingnet.csproj",
+        "projectUniqueName": "D:\\Code\\trainingnet\\trainingnet.csproj",
         "projectName": "trainingnet",
-        "projectPath": "C:\\projets_personnels\\trainingnet\\trainingnet.csproj",
-        "packagesPath": "C:\\Users\\etudiant\\.nuget\\packages\\",
-        "outputPath": "C:\\projets_personnels\\trainingnet\\obj\\",
+        "projectPath": "D:\\Code\\trainingnet\\trainingnet.csproj",
+        "packagesPath": "C:\\Users\\hassa\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\trainingnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\etudiant\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\hassa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BenchmarkDotnet": {
+              "target": "Package",
+              "version": "[0.14.0, )"
+            },
+            "Lombok.NET": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotnet" Version="0.14.0" />
+    <PackageReference Include="Lombok.NET" Version="2.4.1" />
+  </ItemGroup>
+
 </Project>

@@ -1,9 +1,11 @@
 using System.Reflection;
+using BenchmarkDotNet.Attributes;
 
 namespace trainingnet;
 
 public static class MappingExtensions 
 {
+    [Benchmark]
     public static TDto ToDto<T, TDto>(this T source)
     {    
         var dto = Activator.CreateInstance<TDto>();
@@ -20,7 +22,8 @@ public static class MappingExtensions
         return dto;
     }
     
-    public static T FromDto<T, TDto>(this TDto source) 
+    [Benchmark]
+    public static T FromDto<T, TDto>(this TDto source)
     {
         var t = Activator.CreateInstance<T>();
         var sourceProperties = typeof(TDto).GetProperties(BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);

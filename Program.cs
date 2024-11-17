@@ -1,9 +1,8 @@
-﻿using System.Reflection;
-using trainingnet;
+﻿using trainingnet;
 
 Person me = new("Mi");
 var you = Activator.CreateInstance<PersonDto>();
-you.Name = "Mi";
+you.Name = "You";
 you.SignUpDate = DateOnly.FromDateTime(DateTime.Now);
 
 var you2 = you.FromDto<Person, PersonDto>();
