@@ -1,11 +1,9 @@
 using System.Reflection;
-using BenchmarkDotNet.Attributes;
 
 namespace trainingnet;
 
 public static class MappingExtensions 
 {
-    [Benchmark]
     public static TDto ToDto<T, TDto>(this T source)
     {    
         var dto = Activator.CreateInstance<TDto>();
@@ -22,7 +20,6 @@ public static class MappingExtensions
         return dto;
     }
     
-    [Benchmark]
     public static T FromDto<T, TDto>(this TDto source)
     {
         var t = Activator.CreateInstance<T>();
